@@ -19,6 +19,7 @@ def graficar_bateria(): #funcion que grafica
 
     plt.xlabel('Indice')
     plt.ylabel('mAh')
+    plt.legend(list)
     plt.show()
 
 
@@ -39,6 +40,7 @@ def graficar_MEGAPIXEL():
 
     plt.xlabel('Indice')
     plt.ylabel('MEGAPIXEL')
+    plt.legend(list)
     plt.show()
 
 
@@ -59,6 +61,7 @@ def graficar_MHZ():
 
     plt.xlabel('Indice')
     plt.ylabel('mhz')
+    plt.legend(list)
     plt.show()
 
 
